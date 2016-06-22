@@ -25,24 +25,100 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
+<style>
+@media only screen and (max-width: 500px) {
+    .isolayer--deco1 .grid__link div.layer {
+	width: 170px;
+	height: 140px;
+	opacity: 0.4;
+}
+.grid__img {
+	display: block;
+	
+}
+.isolayer--deco4 .grid__link div.layer {
+	width: 100%;
+	height: 100px;
+	opacity: 0.4;
+}
+.isolayer--deco4 .grid__item {
+	width: 50%;
+	height: 115px;
+	padding: 7%;
+}
+.isolayer--deco1 .grid__link div.layer {
+	width: 170px;
+	height: 100px;
+	opacity: 0.4;
+}
+.isolayer--deco1 .grid__item {
+	width: 200px;
+	height: 100px;
+	padding: 15px;
+}
+.isolayer--deco1 .grid__item:nth-child(2) {
+	margin-top: 10px;
+}
+.isolayer--deco1 {
+    margin-top:350px;
+	margin-left:100px;
+	width: 600px;
+	height: 300px;
+}
+.isolayer--deco4 {
+	width: 600px;
+	height: 190px;
+    margin-left:50px;
+    margin-top:100px;	
+}
+h2{
+font-family:Franklin Gothic Medium; color:white; font-size:300%; letter-spacing: 20px; font-weight:900;margin-left:3%;margin-top:0px;
+}
+h3{
+font-family:Goudy Old Style; color:white; font-size:1em; font-weight:700;margin-left:3%;
+}
+#s1,#s2{
+height:125px;
+overflow: hidden;
+	position: relative;
+	padding: 7vmax;
+}
+#ss1 {
+	overflow: hidden;
+	position: relative;
+	height: 170vh;
+	min-height: 600px;
+	max-height: 900px;
+	padding: 7vmax;
+}
+.codrops-icon {
+	display: inline-block;
+	margin: -0.4em;
+	width: 1.5em;
+	text-decoration: none;
+}
+
+}
+</style>
 	</head>
 	<body class="demo-2 grid-loaded" cz-shortcut-listen="true">
 		<main>
 			<header class="codrops-header">
-				<h2 style="font-family:Franklin Gothic Medium; color:white; font-size:7em; letter-spacing: 20px; font-weight:900;margin-left:3%;margin-top:0px" >APPLE</h2>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >T</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >Y</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >P</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >E</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >S</h3>
+				<h2 class="hh1" >APPLE</h2>
+				<h3>T</h3>
+				<h3>Y</h3>
+				<h3>P</h3>
+				<h3>E</h3>
+				<h3>S</h3>
 				<div class="codrops-links">
 					<a class="codrops-icon codrops-icon--prev" href="scroll.html"" title="Previous Demo"><span>Previous Demo</span></a>
 					<a class="codrops-icon codrops-icon--drop" href="ind.php" title="Back to home screen"><span>Back to home screen</span></a>
 				</div>
 			</header>
-			<div class="section section--intro" style="height:(2100-10vh)">
-			    <div class="isolayer isolayer--deco1 isolayer--shadow" style="width:100%">
-					<ul class="grid grid--loaded" style="position; margin-top:350px">
+			
+			<section class="section section--intro" id="s01">
+			    <div class="isolayer isolayer--deco1 isolayer--shadow" style="transform-style: preserve-3d; transform: translateX(33vw) translateY(-340px) rotateX(45deg) rotateZ(45deg);">
+					<ul class="grid grid--loaded" style="position; width: 1200px; height: 2100px;margin-top:350px">
 						
 						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/apple_cortland.jpg" alt="04"><span class="grid__title">Cortland</span></a>
@@ -78,11 +154,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 						
 					</ul>
 				</div>
-			</div><!--/intro-->
+			</section><!--/intro-->
 			<section class="interval">
 				<p class="interval__text">"Your body is the baggage you must carry through life. The more excess the baggage, the shorter the trip." <label style="color:#323F5C"><small><em>— Arnold H. Glasgow</em><small></label></p>
 			</section>
-				<section class="section section--right">
+				<section class="section section--right" id="ss1">
 				
 				
 				<div class="isolayer isolayer--deco4">
@@ -169,6 +245,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		<script src="javascript/classie.js"></script>
 		<script src="javascript/main.js"></script>
 		<script>
+		
 		(function() {
 			function getRandomInt(min, max) {
 				return Math.floor(Math.random() * (max - min + 1)) + min;

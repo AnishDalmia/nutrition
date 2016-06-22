@@ -33,8 +33,6 @@ body {
 	margin-top:10%;
 	padding: 0;
 	list-style: none;
-	width:80%;
-
 }
 
 .grid__item {
@@ -166,7 +164,7 @@ body {
 
 .isolayer--deco2 {
 	width: 1200px;
-	height: 1vh;
+	height: 100vh;
 }
 
 .isolayer--deco2 .grid__item {
@@ -180,20 +178,19 @@ body {
 }
 
 .isolayer--deco3 {
-	width: 80%;
-	height: 20%;
-	margin-left:40%;
+	width: 960px;
+	height: 500px;
 }
 
 .isolayer--deco3 .grid__item {
-	width: 24%;
-	height: 32%;
+	width: 240px;
+	height: 320px;
 	padding: 0;
 }
 
 .isolayer--deco3 .grid__item:nth-child(2),
 .isolayer--deco3 .grid__item:nth-child(4) {
-	margin-top: -1.5%;
+	margin-top: -160px;
 }
 
 .isolayer--deco3 .grid__link,
@@ -243,7 +240,7 @@ body {
 	font-weight: 500;
 	line-height: 1;
 	display: block;
-	padding: 7% 0 0 0;
+	padding: 70px 0 0 0;
 	color: #000;
 	color: #000;
 }
@@ -281,15 +278,15 @@ body {
 }
 
 .isolayer--deco4 .grid__link div.layer {
-	width: 27%;
-	height: 25%;
+	width: 270px;
+	height: 203px;
 	opacity: 0.4;
 }
 
 .isolayer--deco4 .grid__item {
-	width: 35%;
-	height: 30vh;
-	padding: 1.5%;
+	width: 300px;
+	height: 225px;
+	padding: 15px;
 }
 
 /* Flip effect for the scrollable grid */

@@ -25,24 +25,100 @@ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
+<style>
+@media only screen and (max-width: 500px) {
+    .isolayer--deco1 .grid__link div.layer {
+	width: 170px;
+	height: 140px;
+	opacity: 0.4;
+}
+.grid__img {
+	display: block;
+	
+}
+.isolayer--deco4 .grid__link div.layer {
+	width: 100%;
+	height: 100px;
+	opacity: 0.4;
+}
+.isolayer--deco4 .grid__item {
+	width: 50%;
+	height: 115px;
+	padding: 7%;
+}
+.isolayer--deco1 .grid__link div.layer {
+	width: 170px;
+	height: 100px;
+	opacity: 0.4;
+}
+.isolayer--deco1 .grid__item {
+	width: 200px;
+	height: 100px;
+	padding: 15px;
+}
+.isolayer--deco1 .grid__item:nth-child(2) {
+	margin-top: 10px;
+}
+.isolayer--deco1 {
+    margin-top:350px;
+	margin-left:100px;
+	width: 600px;
+	height: 300px;
+}
+.isolayer--deco4 {
+	width: 600px;
+	height: 190px;
+    margin-left:50px;
+    margin-top:100px;	
+}
+h2{
+font-family:Franklin Gothic Medium; color:white; font-size:300%; letter-spacing: 20px; font-weight:900;margin-left:3%;margin-top:0px;
+}
+h3{
+font-family:Goudy Old Style; color:white; font-size:1em; font-weight:700;margin-left:3%;
+}
+#s1,#s2{
+height:125px;
+overflow: hidden;
+	position: relative;
+	padding: 7vmax;
+}
+#ss1 {
+	overflow: hidden;
+	position: relative;
+	height: 170vh;
+	min-height: 600px;
+	max-height: 900px;
+	padding: 7vmax;
+}
+.codrops-icon {
+	display: inline-block;
+	margin: -0.4em;
+	width: 1.5em;
+	text-decoration: none;
+}
+
+}
+</style>
 	</head>
 	<body class="demo-2 grid-loaded" cz-shortcut-listen="true">
 		<main>
 			<header class="codrops-header">
-				<h2 style="font-family:Franklin Gothic Medium; color:white; font-size:7em; letter-spacing: 20px; font-weight:900;margin-left:3%;margin-top:0px" >PINEAPPLE</h2>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >T</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >Y</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >P</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >E</h3>
-				<h3 style="font-family:Goudy Old Style; color:white; font-size:2em; font-weight:700;margin-left:3%;" >S</h3>
+				<h2 class="hh1" >PINEAPPLE</h2>
+				<h3>T</h3>
+				<h3>Y</h3>
+				<h3>P</h3>
+				<h3>E</h3>
+				<h3>S</h3>
 				<div class="codrops-links">
 					<a class="codrops-icon codrops-icon--prev" href="scroll.html"" title="Previous Demo"><span>Previous Demo</span></a>
 					<a class="codrops-icon codrops-icon--drop" href="ind.php" title="Back to home screen"><span>Back to home screen</span></a>
 				</div>
 			</header>
-			<section class="section section--intro">
+			
+			<section class="section section--intro" id="s01">
 			    <div class="isolayer isolayer--deco1 isolayer--shadow" style="transform-style: preserve-3d; transform: translateX(33vw) translateY(-340px) rotateX(45deg) rotateZ(45deg);">
-					<ul class="grid grid--loaded" style="position: relative; width: 1200px; height: 2100px;margin-top:350px">
+					<ul class="grid grid--loaded" style="position; width: 1200px; height: 2100px;margin-top:350px">
 						
 						<li class="grid__item" style="position: absolute; left: 0px; top: 300px;">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapple_abacaxi.jpg" alt="04"><span class="grid__title">Abacaxi</span></a>
@@ -82,113 +158,81 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			<section class="interval">
 				<p class="interval__text">"Your body is the baggage you must carry through life. The more excess the baggage, the shorter the trip." <label style="color:#323F5C"><small><em>— Arnold H. Glasgow</em><small></label></p>
 			</section>
-				<section class="section section--shots section--right">
-				<p style="color:white;font-size:4em;text-align:right">Nutrition is Everything</p>
-				<p class="section__subtitle" style="color:white;font-size:2em;text-align:right">To raise new questions, new possibilities, to regard old problems from a new angle, requires creative imagination and marks real advance in science.</p>
-				<div class="isolayer isolayer--deco4" style="transform-style: preserve-3d; transform: perspective(3000px) translate3d(-200px, -200px, 0px) scale3d(0.8, 0.8, 1) rotateY(45deg) rotateZ(-10deg);">
-					<ul class="grid grid--loaded" id="grid1" style="position: absolute; width: 900px; height: 1575px;">
+				<section class="section section--right" id="ss1">
+				
+				
+				<div class="isolayer isolayer--deco4">
+					<ul class="grid grid--loaded" id="grid1" style="position: absolute;">
 						
-						<li class="grid__item" style="position: absolute; left: 0px; top: 225px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev1.png" alt="04"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 300px; top: 225px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev6.png" alt="05"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 600px; top: 225px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev2.png" alt="06"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 0px; top: 450px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev7.png" alt="07"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 300px; top: 450px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev3.png" alt="08"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 600px; top: 450px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev8.png" alt="09"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 0px; top: 675px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev4.png" alt="10"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 300px; top: 675px;">
+						<li class="grid__item">
 							<a class="grid__link"><div class="layer"></div><div class="layer"></div><div class="layer"></div><img class="grid__img layer" src="images/pineapplev9.png" alt="01"></a>
 						</li>
-						<li class="grid__item" style="position: absolute; left: 600px; top: 675px; z-index: 1;">
+						<li class="grid__item">
 							<a class="grid__link" style="z-index: 1;"><div class="layer" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></div><div class="layer" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></div><div class="layer" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></div><img class="grid__img layer" src="images/pineapplev5.png" alt="02" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></a>
 						</li>
 						
 					
 					</ul>
 				</div>
+							
 			</section>
 			<section class="interval">
 				<p class="interval__text" style="font-size:2.5em;text-align:center">"Every step counts, Every bite counts." <label style="color:#323F5C"><small><em>— Arnold H. Glasgow</em><small></label></p>
 			</section>
 			
 			
-			<section class="section--right section--portraits" id="s2">
-             <div style="margin-right:250px">			
-			 <img src="images/scientific.png" onmouseover="this.src='images/pineappler1b.png'" onmouseout="this.src='images/scientific.png'" style="width:150px" /> 
-             <img src="images/family.png" onmouseover="this.src='images/pineappler2b.png'" onmouseout="this.src='images/family.png'" style="width:150px" /> 
-             <img src="images/origin.png" onmouseover="this.src='images/pineappler3b.png'" onmouseout="this.src='images/origin.png'" style="width:150px" /> 
-             <img src="images/exporter.png" onmouseover="this.src='images/pineappler4b.png'" onmouseout="this.src='images/exporter.png'" style="width:150px" /> 
-             <img src="images/importer.png" onmouseover="this.src='images/pineappler5b.png'" onmouseout="this.src='images/importer.png'" style="width:150px" /> 			 
+			<div  id="s2">
+            
+			 <div>
+			 <img src="images/scientific.png" onmouseover="this.src='images/pineappler1b.png'" onmouseout="this.src='images/scientific.png'" style="width:18%" /> 
+             <img src="images/family.png" onmouseover="this.src='images/pineappler2b.png'" onmouseout="this.src='images/family.png'" style="width:18%" /> 
+             <img src="images/origin.png" onmouseover="this.src='images/pineappler3b.png'" onmouseout="this.src='images/origin.png'" style="width:18%" /> 
+             <img src="images/exporter.png" onmouseover="this.src='images/pineappler4b.png'" onmouseout="this.src='images/exporter.png'" style="width:18%" /> 
+             <img src="images/importer.png" onmouseover="this.src='images/pineappler5b.png'" onmouseout="this.src='images/importer.png'" style="width:18%" /> 			 
 			 </div>
 			
+			
 				
-				<div class="isolayer isolayer--deco2" style="transform-style: preserve-3d; transform: perspective(3000px) translateY(-150px) rotateX(55deg) rotateZ(-45deg);">
-					<ul class="grid grid--loaded" style="position: relative; ">
-						<li class="grid__item" style="position: absolute; center: 0px; top: 0px;">
-							<a class="grid__link">
-								
-							</a>
+				<div class="isolayer--deco2">
+					<ul class="grid">
+						
+						
 						
 					</ul>
 					
 				</div>
 				
-			</section>
+			</div>
 			
-			<div style="height:200px">
+			<div>
 			<section class="section--cards" id="s1">
 				<h2 class="section__heading">NutriGuide</h2>
 				<p class="section__subtitle" style="color:white">Copyright: All Rights reserved.</p>
-				<div class="isolayer isolayer--deco3" style="transform-style: preserve-3d; transform: translateX(40vw) translateY(100px) rotateX(15deg) rotateY(0deg) rotateZ(40deg);">
+				<div class="isolayer isolayer--deco3" >
 					<ul class="grid grid--loaded" style="position: relative; width: 960px; height: 1280px;">
-						<li class="grid__item" style="position: absolute; left: 0px; top: 0px;">
-							<a class="grid__link" href="http://tympanus.net/Development/IsometricGrids/index2.html#">
-								<div class="layer"><span class="decoletter">About Us</span><span class="deconumber">...</span></div>
-								<div class="layer"><span class="decoletter">About Us</span><span class="deconumber">...</span></div>
-								<div class="layer"><span class="decoletter">About Us</span><span class="deconumber">...</span></div>
-							</a>
-						</li>
-						<li class="grid__item" style="position: absolute; left: 0px; top: 0px;">
-							<a class="grid__link" href="http://tympanus.net/Development/IsometricGrids/index2.html#">
-								<div class="layer"><span class="decoletter">Contact</span><span class="deconumber">...</span></div>
-								<div class="layer"><span class="decoletter">Contact</span><span class="deconumber">...</span></div>
-								<div class="layer"><span class="decoletter">Contact</span><span class="deconumber">...</span></div>
-							</a>
-						</li>
-						<li class="grid__item" style="position: absolute; left: 0px; top: 0px;">
-							<a class="grid__link">
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-							</a>
-						</li>
-						<li class="grid__item" style="position: absolute; left: 0px; top: 0px;">
-							<a class="grid__link">
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-							</a>
-						</li>
-						<li class="grid__item" style="position: absolute; left: 0px; top: 0px;">
-							<a class="grid__link">
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-								<div class="layer"><span class="decoletter"></span><span class="deconumber"></span></div>
-							</a>
-						</li>
+					
+				
 						
 					</ul>
 				</div>
@@ -201,6 +245,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		<script src="javascript/classie.js"></script>
 		<script src="javascript/main.js"></script>
 		<script>
+		
 		(function() {
 			function getRandomInt(min, max) {
 				return Math.floor(Math.random() * (max - min + 1)) + min;
